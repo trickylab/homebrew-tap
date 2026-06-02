@@ -5,21 +5,21 @@
 class Envii < Formula
   desc "Encrypted .env & secrets manager with a TUI"
   homepage "https://github.com/Trickster-ID/envii"
-  version "0.1.2"
+  version "0.1.3"
   license "MIT"
 
   on_macos do
     if Hardware::CPU.intel?
-      url "https://github.com/Trickster-ID/envii/releases/download/v0.1.2/envii_0.1.2_darwin_amd64.tar.gz"
-      sha256 "1e98fef9787f23b18fd96aa5492555bd61f0e78f9815fba7716b92899862c7ce"
+      url "https://github.com/Trickster-ID/envii/releases/download/v0.1.3/envii_0.1.3_darwin_amd64.tar.gz"
+      sha256 "9d4b8522f919b6b92d3b4a5126dbf152707165d778fb7d622fd6a8380cf6de28"
 
       define_method(:install) do
         bin.install "envii"
       end
     end
     if Hardware::CPU.arm?
-      url "https://github.com/Trickster-ID/envii/releases/download/v0.1.2/envii_0.1.2_darwin_arm64.tar.gz"
-      sha256 "8a72eec4e4b7a743f49ec690252b827e2a20716e76ac1b63e8ef0baa49fb21ee"
+      url "https://github.com/Trickster-ID/envii/releases/download/v0.1.3/envii_0.1.3_darwin_arm64.tar.gz"
+      sha256 "18cd5548c7bbb7a40a28312d32c0fbeaa9693cc8980ee0bc244c1765d8f43e63"
 
       define_method(:install) do
         bin.install "envii"
@@ -29,15 +29,15 @@ class Envii < Formula
 
   on_linux do
     if Hardware::CPU.intel? && Hardware::CPU.is_64_bit?
-      url "https://github.com/Trickster-ID/envii/releases/download/v0.1.2/envii_0.1.2_linux_amd64.tar.gz"
-      sha256 "d0b6a68dac5b4fb0924be21dd143e6306a89fbdf2bad64a0e901eff42c6e640b"
+      url "https://github.com/Trickster-ID/envii/releases/download/v0.1.3/envii_0.1.3_linux_amd64.tar.gz"
+      sha256 "9d6391944ed89c37552c5af9779cbf7d881877bd36b7620d13ad803c9e9b5ba1"
       define_method(:install) do
         bin.install "envii"
       end
     end
     if Hardware::CPU.arm? && Hardware::CPU.is_64_bit?
-      url "https://github.com/Trickster-ID/envii/releases/download/v0.1.2/envii_0.1.2_linux_arm64.tar.gz"
-      sha256 "70262299aebdf3d9d6df56cb6e9113e4cea606ba7b7e5858ad19253cfc4b58b8"
+      url "https://github.com/Trickster-ID/envii/releases/download/v0.1.3/envii_0.1.3_linux_arm64.tar.gz"
+      sha256 "55b238d7e15e22c5f44ec3189fedefda4eb3c4ba6a74723024de58cb0ced9517"
       define_method(:install) do
         bin.install "envii"
       end
