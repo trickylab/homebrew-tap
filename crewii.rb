@@ -1,28 +1,28 @@
 class Crewii < Formula
   desc "Role-based engineering crew for OpenCode"
   homepage "https://github.com/trickylab/crewii"
-  version "0.1.0"
+  version "0.1.1"
   license "MIT"
 
   on_macos do
     on_arm do
-      url "https://github.com/trickylab/crewii/releases/download/v0.1.0/crewii-v0.1.0-aarch64-apple-darwin.tar.gz"
-      sha256 "7132af3538cfe72a12f95d4a24cb7d7e96b6f5fb35d0877f18fa734366022d3c"
+      url "https://github.com/trickylab/crewii/releases/download/v0.1.1/crewii-v0.1.1-aarch64-apple-darwin.tar.gz"
+      sha256 "ecc704c1154aea2a430e79ffee55338691d6ad135877efc45baf81a7627ed96e"
     end
     on_intel do
-      url "https://github.com/trickylab/crewii/releases/download/v0.1.0/crewii-v0.1.0-x86_64-apple-darwin.tar.gz"
-      sha256 "976fe138ab5a06139a12cbe4718363e47442ee30de73e745e8ccbcf99056954b"
+      url "https://github.com/trickylab/crewii/releases/download/v0.1.1/crewii-v0.1.1-x86_64-apple-darwin.tar.gz"
+      sha256 "e81116bd33f7975fcda3e148ca6e20feb21240b7f18a8e40c04f37f214178cf6"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/trickylab/crewii/releases/download/v0.1.0/crewii-v0.1.0-aarch64-unknown-linux-musl.tar.gz"
-      sha256 "a9f38ce611050ae2a7bd69025676b2ab8786fe3ea68984149d12d11d3776c763"
+      url "https://github.com/trickylab/crewii/releases/download/v0.1.1/crewii-v0.1.1-aarch64-unknown-linux-musl.tar.gz"
+      sha256 "2744262bf07569257114847a913478cc553d910d8d9abe615b9684ef1fecd521"
     end
     on_intel do
-      url "https://github.com/trickylab/crewii/releases/download/v0.1.0/crewii-v0.1.0-x86_64-unknown-linux-musl.tar.gz"
-      sha256 "d8e2df06b04f08d655f68a3e2122e853a9bfcdcc9cbf0ea5c4af13da0c376340"
+      url "https://github.com/trickylab/crewii/releases/download/v0.1.1/crewii-v0.1.1-x86_64-unknown-linux-musl.tar.gz"
+      sha256 "f4d8fc783571493455f2cfaabd2d9b166bfa54cc30f8086baa4a9826b6108acd"
     end
   end
 
